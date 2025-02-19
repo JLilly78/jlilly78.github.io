@@ -87,13 +87,13 @@ margin-right: -1%;
 .main-body .container
 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     background-image: linear-gradient(#424242, #5f5f5f);
     border-radius: 10px / 10px;
     border-width: 1ch;
     border-color:#302929;
-    align-content: flex-start;
+    align-content: center;
     box-shadow: inset 0 0 5px #363636;
     margin-bottom: 10%;
 
@@ -122,12 +122,68 @@ margin-right: -1%;
 .main-body .container .media video
 {
     background-color: #141414;
+    border:solid;
+    border-color: rgb(172, 138, 138);
+    border-width: 2px;
+    border-radius: 24px / 24px;
+}
+
+.main-body .container .container-header
+{
+    align-self: center;
+    margin:auto;
+    margin-top: 2%;
+}
+
+.main-body .container .container-header .container-header-content
+{
+    font-family: "Agdasima-Regular", sans-serif;
+    font-size: 3rem;
+    color: rgb(238, 198, 198);
+}
+
+.main-body .container .about-me-container
+{
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+    padding: 2%;
+    margin: 2%;
+    text-align: center;
+}
+
+.main-body .container .about-me-content
+{
+    font-family: "Agdasima-Regular", sans-serif;
+    font-size: 1.2rem;
+    font-size-adjust: inherit;
+    color: rgb(238, 198, 198);
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .main-body .container .boxes .boxes-text
 {
     font-family: "Agdasima-Regular", sans-serif;
     font-size: 1rem;
+    font-size-adjust: inherit;
+    color: rgb(238, 198, 198);
+}
+
+.main-body .introduction
+{
+    text-align: center;
+    margin-bottom: 10%;
+    margin-top: 8%;
+}
+
+.main-body .introduction .sub-introduction
+{
+    font-family: "Agdasima-Regular", sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
     font-size-adjust: inherit;
     color: rgb(238, 198, 198);
 }
