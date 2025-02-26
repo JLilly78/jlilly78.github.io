@@ -2,11 +2,25 @@
     <head>
         <link rel="stylesheet" href="styles.css">
         <script src="script.js"></script>
+        <link rel="icon" href="./favicon_io/favicon.ico">
     </head>
-    <div class="ticker">
+    <!--
+        <div class="ticker">
         <div class="ticker-content">
 
                 I hope this isn't too distracting i really thought it would be fun to put up a ticker tape you know it just seems like a fun idea. I know it might be bad web design but you know what i just wanted to make something cool and quick but you know how it is. anyway im still trying to figure out what the heck i'm going to put on this website, like right now i just have a crappy c++ music player that doesn't fully work. I hope you like it anyway, i'm going to make it look nicer and work with all types of wav files but for now it only plays some, also the mp3 side of it isn't doing so well, sorry about that. I wish i was better at this, at least im happy with this website so far. I really DON'T LIKE wordpress and squarespace im really kind of antagonistic towards them you know gotta just make the website yourself besides wordpress is so hard to navigate whoever made the menus for wordpress is evil and should consider getting a life, don't you think?
+        </div>
+    </div>
+    
+    -->
+    <div class="top-menu">
+        <div class="top-menu-content">
+            <div class="top-menu-item">
+                <a href="#about-me">About</a>
+            </div>
+            <div class="top-menu-item">
+                Projects
+            </div>
         </div>
     </div>
     <body class="main-body">
@@ -19,40 +33,112 @@
             </div>
         </div>
         <div class="super-container">
-            <div class="menu-container">
+            <div class="menu-container" id="menu-container">
                 <ul class="menu-list-1">
-                    <li><a href="https://github.com/JLilly78">Github</a></li>
-                    <li><a href="https://www.linkedin.com/in/jacob-lilly-b44581272">LinkedIn &#40;This doesn't work&#41;</a></li>
+                    <li><a href="#about-me">About</a></li>
+                    <li>Projects</li>
                 </ul>
             </div>
             <div class="container">
                 <div class="container-header">
-                    <span class="container-header-content">
+                    <span class="container-header-content" id="about-me">
                         About Me
                     </span>
                 </div>
                 <div class="about-me-container">
                     <span class="about-me-content">
-                        Despite how fun this website was to make, I'm more into the field of backend programming. My best language is C++. I like working with digital audio. Aside from the programming work, I like making music in FL Studio. Big fan of music like that of Yes and R.E.M., and also various soundtracks.
+                        Despite how fun this website was to make, I'm more into the field of backend programming. My best language is C++. I like working with digital audio. Aside from the programming work, I like making music in FL Studio.
                     </span>
                 </div>
-                <div class="media">
-                    <video controls autoplay muted>
-                        <source src=""> <!-- put a video of the music player or some stuff, ensure its in the project folder-->
-                         Your browser does not support the video tag, get a new one.
-                    </video>
+                <div class="box-row">
+                    <div class="box-row-image-container">
+                        <svg class="cpp-image" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 306 344.35">
+                        <path fill="#00599C" d="M302.107,258.262c2.401-4.159,3.893-8.845,3.893-13.053V99.14c0-4.208-1.49-8.893-3.892-13.052L153,172.175
+                            L302.107,258.262z"/>
+                        <path fill="#004482" d="M166.25,341.193l126.5-73.034c3.644-2.104,6.956-5.737,9.357-9.897L153,172.175L3.893,258.263
+                            c2.401,4.159,5.714,7.793,9.357,9.896l126.5,73.034C147.037,345.401,158.963,345.401,166.25,341.193z"/>
+                        <path fill="#659AD2" d="M302.108,86.087c-2.402-4.16-5.715-7.793-9.358-9.897L166.25,3.156c-7.287-4.208-19.213-4.208-26.5,0
+                            L13.25,76.19C5.962,80.397,0,90.725,0,99.14v146.069c0,4.208,1.491,8.894,3.893,13.053L153,172.175L302.108,86.087z"/>
+                        <g>
+                    	<path fill="#FFFFFF" d="M153,274.175c-56.243,0-102-45.757-102-102s45.757-102,102-102c36.292,0,70.139,19.53,88.331,50.968
+                    		l-44.143,25.544c-9.105-15.736-26.038-25.512-44.188-25.512c-28.122,0-51,22.878-51,51c0,28.121,22.878,51,51,51
+                    		c18.152,0,35.085-9.776,44.191-25.515l44.143,25.543C223.142,254.644,189.294,274.175,153,274.175z"/>
+                        </g>
+                        <g>
+                        	<polygon fill="#FFFFFF" points="255,166.508 243.666,166.508 243.666,155.175 232.334,155.175 232.334,166.508 221,166.508 
+                    		221,177.841 232.334,177.841 232.334,189.175 243.666,189.175 243.666,177.841 255,177.841 	"/>
+                        </g>
+                        <g>
+                        	<polygon fill="#FFFFFF" points="297.5,166.508 286.166,166.508 286.166,155.175 274.834,155.175 274.834,166.508 263.5,166.508 
+                    		263.5,177.841 274.834,177.841 274.834,189.175 286.166,189.175 286.166,177.841 297.5,177.841 	"/>
+                        </g>
+                    </svg>
+
+                    </div>
+                    <span class="boxes">
+                        <span class="boxes-text">
+                        C++ is the language I have the most experience with. I've done most of the bigger assignments in my programming classes with it. This included assignments in introductory C++ courses, data structures and algorithms, computer architecture, operating systems and theory of programming languages (about compilers). I also assembled a .wav player with it.
+                        </span>
+                    </span>
                 </div>
-                <span class="boxes">
-                    <span class="boxes-text">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia ea sequi omnis temporibus. Deserunt, quasi quos labore ad possimus nesciunt debitis quam vel repudiandae quibusdam quo eius nemo. Tempore, ad? (This is a work in progress, sorry)
+                <div class="box-row">
+                    <div class="box-row-image-container">
+
+                          <svg class="css-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                            <path fill="#264de4" d="M71.357 460.819L30.272 0h451.456l-41.129 460.746L255.724 512z"/>
+                            <path fill="#2965f1" d="M405.388 431.408l35.148-393.73H256v435.146z"/>
+                            <path fill="#ebebeb" d="M124.46 208.59l5.065 56.517H256V208.59zM119.419 150.715H256V94.197H114.281zM256 355.372l-.248.066-62.944-16.996-4.023-45.076h-56.736l7.919 88.741 115.772 32.14.26-.073z"/>
+                            <path fill="#fff" d="M255.805 208.59v56.517H325.4l-6.56 73.299-63.035 17.013v58.8l115.864-32.112.85-9.549 13.28-148.792 1.38-15.176 10.203-114.393H255.805v56.518h79.639L330.3 208.59z"/>
+                          </svg>
+                          <svg class="js-logo" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 124 141.53199999999998"><path d="M10.383 126.894L0 0l124 .255-10.979 126.639-50.553 14.638z" fill="#e9ca32"/><path d="M62.468 129.277V12.085l51.064.17-9.106 104.851z" fill="#ffde25"/><g fill="#fff"><path d="M57 26H43.5v78L33 102V91.5l-12.5-2V113l36.5 9.5zM67.127 26H104.5L102 40.95H81.394v24.533H102L99.5 115l-32.373 7.5V107L89 99.5 90.263 79l-23.136 3.35z"/></g></svg>
+                          <svg class="html-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                            <title>HTML5 Logo Badge</title>
+                            <path fill="#E34F26" d="M71,460 L30,0 481,0 440,460 255,512"/>
+                            <path fill="#EF652A" d="M256,472 L405,431 440,37 256,37"/>
+                            <path fill="#EBEBEB" d="M256,208 L181,208 176,150 256,150 256,94 255,94 114,94 115,109 129,265 256,265zM256,355 L255,355 192,338 188,293 158,293 132,293 139,382 255,414 256,414z"/>
+                            <path fill="#FFF" d="M255,208 L255,265 325,265 318,338 255,355 255,414 371,382 372,372 385,223 387,208 371,208zM255,94 L255,129 255,150 255,150 392,150 392,150 392,150 393,138 396,109 397,94z"/>
+                          </svg>
+
+
+                    </div>
+                    <span class="boxes">
+                        <span class="boxes-text">
+                        This website was made with HTML and CSS and employs some JavaScript as well. I've had experience with these making things for front-end and back-end development classes. I've also made a website for a city hall employing these within the Angular framework.
+                        </span>
                     </span>
-                </span>
-                 <span class="boxes">
-                    <span class="boxes-text">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia ea sequi omnis temporibus. Deserunt, quasi quos labore ad possimus nesciunt debitis quam vel repudiandae quibusdam quo eius nemo. Tempore, ad? (This is a work in progress, sorry)
+                </div>
+                <div class="box-row">
+                    <div class="box-row-image-container">
+                        <img class="ssms-logo" src="./images/ssms.png">
+                    </div>
+                    <span class="boxes">
+                        <span class="boxes-text">
+                        I've done plenty of work with SQL in both back-end programming classes and database theory classes. 
+                        </span>
                     </span>
-                </span>
+                </div>
+
+                
             </div>
         </div>
     </body>
+    <footer class="footer">
+        <div class="footer-head">
+            <span class="footer-head-content">
+                JLilly78
+            </span>
+        </div>
+
+
+        <div class="footer-content">
+            <a href="https://github.com/JLilly78">
+            <svg class="footer-image" viewBox="0 0 98 96" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M48.854 0C21.839 0 0 22 0 49.217c0 21.756 13.993 40.172 33.405 46.69 2.427.49 3.316-1.059 3.316-2.362 0-1.141-.08-5.052-.08-9.127-13.59 2.934-16.42-5.867-16.42-5.867-2.184-5.704-5.42-7.17-5.42-7.17-4.448-3.015.324-3.015.324-3.015 4.934.326 7.523 5.052 7.523 5.052 4.367 7.496 11.404 5.378 14.235 4.074.404-3.178 1.699-5.378 3.074-6.6-10.839-1.141-22.243-5.378-22.243-24.283 0-5.378 1.94-9.778 5.014-13.2-.485-1.222-2.184-6.275.486-13.038 0 0 4.125-1.304 13.426 5.052a46.97 46.97 0 0 1 12.214-1.63c4.125 0 8.33.571 12.213 1.63 9.302-6.356 13.427-5.052 13.427-5.052 2.67 6.763.97 11.816.485 13.038 3.155 3.422 5.015 7.822 5.015 13.2 0 18.905-11.404 23.06-22.324 24.283 1.78 1.548 3.316 4.481 3.316 9.126 0 6.6-.08 11.897-.08 13.526 0 1.304.89 2.853 3.316 2.364 19.412-6.52 33.405-24.935 33.405-46.691C97.707 22 75.788 0 48.854 0z" fill="var(--fillColor)"/></svg>
+            </a>
+
+            <a href="https://www.linkedin.com/in/jacob-lilly-b44581272/">
+
+            <svg class="footer-image" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M10 .4C4.698.4.4 4.698.4 10s4.298 9.6 9.6 9.6 9.6-4.298 9.6-9.6S15.302.4 10 .4zM7.65 13.979H5.706V7.723H7.65v6.256zm-.984-7.024c-.614 0-1.011-.435-1.011-.973 0-.549.409-.971 1.036-.971s1.011.422 1.023.971c0 .538-.396.973-1.048.973zm8.084 7.024h-1.944v-3.467c0-.807-.282-1.355-.985-1.355-.537 0-.856.371-.997.728-.052.127-.065.307-.065.486v3.607H8.814v-4.26c0-.781-.025-1.434-.051-1.996h1.689l.089.869h.039c.256-.408.883-1.01 1.932-1.01 1.279 0 2.238.857 2.238 2.699v3.699z" fill="var(--fillColor)"/></svg>
+            </a>
+        </div>
+    </footer>
 </html>
