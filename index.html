@@ -14,12 +14,22 @@
     
     -->
     <div class="top-menu">
+        <div class="menu-color-buttons">
+            <button class="color-1" onclick="colorSet('#eec6c6', '#695e64', '#a6c5ca', 'Arataka')"></button>
+            <button class="color-2" onclick="colorSet('#34ebc0', '#0b382d', '#436494', 'Mint')"></button>
+            <button class="color-3" onclick="colorSet('#3e89de', '#0b0b38', '#e6d663', 'Blue-Gold')"></button>
+            <button class="color-4" onclick="colorSet('#e25d64', '#793a54', '#42607f', 'Crimson King')"></button>
+            <div class="theme-box">
+                <span id="theme">Arataka</span>
+            </div>
+        </div>
+
         <div class="top-menu-content">
             <div class="top-menu-item">
                 <a href="#about-me">About</a>
             </div>
             <div class="top-menu-item">
-                Projects
+                <a href="#projects">Projects</a>
             </div>
         </div>
     </div>
@@ -34,91 +44,127 @@
         </div>
         <div class="super-container">
             <div class="menu-container" id="menu-container">
+                <div class="menu-color-buttons">
+                    <button class="color-1" onclick="colorSet('#eec6c6', '#695e64', '#a6c5ca', 'Arataka')"></button>
+                    <button class="color-2" onclick="colorSet('#34ebc0', '#0b382d', '#436494', 'Mint')"></button>
+                    <button class="color-3" onclick="colorSet('#3e89de', '#0b0b38', '#e6d663', 'Blue-Gold')"></button>
+                </div>
                 <ul class="menu-list-1">
                     <li><a href="#about-me">About</a></li>
-                    <li>Projects</li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li></li>
                 </ul>
             </div>
-            <div class="container">
-                <div class="container-header">
-                    <span class="container-header-content" id="about-me">
-                        About Me
-                    </span>
-                </div>
-                <div class="about-me-container">
-                    <span class="about-me-content">
-                        Despite how fun this website was to make, I'm more into the field of backend programming. My best language is C++. I like working with digital audio. Aside from the programming work, I like making music in FL Studio.
-                    </span>
-                </div>
-                <div class="box-row">
-                    <div class="box-row-image-container">
-                        <svg class="cpp-image" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 306 344.35">
-                        <path fill="#00599C" d="M302.107,258.262c2.401-4.159,3.893-8.845,3.893-13.053V99.14c0-4.208-1.49-8.893-3.892-13.052L153,172.175
-                            L302.107,258.262z"/>
-                        <path fill="#004482" d="M166.25,341.193l126.5-73.034c3.644-2.104,6.956-5.737,9.357-9.897L153,172.175L3.893,258.263
-                            c2.401,4.159,5.714,7.793,9.357,9.896l126.5,73.034C147.037,345.401,158.963,345.401,166.25,341.193z"/>
-                        <path fill="#659AD2" d="M302.108,86.087c-2.402-4.16-5.715-7.793-9.358-9.897L166.25,3.156c-7.287-4.208-19.213-4.208-26.5,0
-                            L13.25,76.19C5.962,80.397,0,90.725,0,99.14v146.069c0,4.208,1.491,8.894,3.893,13.053L153,172.175L302.108,86.087z"/>
-                        <g>
-                    	<path fill="#FFFFFF" d="M153,274.175c-56.243,0-102-45.757-102-102s45.757-102,102-102c36.292,0,70.139,19.53,88.331,50.968
-                    		l-44.143,25.544c-9.105-15.736-26.038-25.512-44.188-25.512c-28.122,0-51,22.878-51,51c0,28.121,22.878,51,51,51
-                    		c18.152,0,35.085-9.776,44.191-25.515l44.143,25.543C223.142,254.644,189.294,274.175,153,274.175z"/>
-                        </g>
-                        <g>
-                        	<polygon fill="#FFFFFF" points="255,166.508 243.666,166.508 243.666,155.175 232.334,155.175 232.334,166.508 221,166.508 
-                    		221,177.841 232.334,177.841 232.334,189.175 243.666,189.175 243.666,177.841 255,177.841 	"/>
-                        </g>
-                        <g>
-                        	<polygon fill="#FFFFFF" points="297.5,166.508 286.166,166.508 286.166,155.175 274.834,155.175 274.834,166.508 263.5,166.508 
-                    		263.5,177.841 274.834,177.841 274.834,189.175 286.166,189.175 286.166,177.841 297.5,177.841 	"/>
-                        </g>
-                    </svg>
+            <div class="section-container">
 
-                    </div>
-                    <span class="boxes">
-                        <span class="boxes-text">
-                        C++ is the language I have the most experience with. I've done most of the bigger assignments in my programming classes with it. This included assignments in introductory C++ courses, data structures and algorithms, computer architecture, operating systems and theory of programming languages (about compilers). I also assembled a .wav player with it.
+                <div class="container">
+                    <div class="container-header">
+                        <span class="container-header-content" id="about-me">
+                            About Me
                         </span>
-                    </span>
-                </div>
-                <div class="box-row">
-                    <div class="box-row-image-container">
-
-                          <svg class="css-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                            <path fill="#264de4" d="M71.357 460.819L30.272 0h451.456l-41.129 460.746L255.724 512z"/>
-                            <path fill="#2965f1" d="M405.388 431.408l35.148-393.73H256v435.146z"/>
-                            <path fill="#ebebeb" d="M124.46 208.59l5.065 56.517H256V208.59zM119.419 150.715H256V94.197H114.281zM256 355.372l-.248.066-62.944-16.996-4.023-45.076h-56.736l7.919 88.741 115.772 32.14.26-.073z"/>
-                            <path fill="#fff" d="M255.805 208.59v56.517H325.4l-6.56 73.299-63.035 17.013v58.8l115.864-32.112.85-9.549 13.28-148.792 1.38-15.176 10.203-114.393H255.805v56.518h79.639L330.3 208.59z"/>
-                          </svg>
-                          <svg class="js-logo" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 124 141.53199999999998"><path d="M10.383 126.894L0 0l124 .255-10.979 126.639-50.553 14.638z" fill="#e9ca32"/><path d="M62.468 129.277V12.085l51.064.17-9.106 104.851z" fill="#ffde25"/><g fill="#fff"><path d="M57 26H43.5v78L33 102V91.5l-12.5-2V113l36.5 9.5zM67.127 26H104.5L102 40.95H81.394v24.533H102L99.5 115l-32.373 7.5V107L89 99.5 90.263 79l-23.136 3.35z"/></g></svg>
-                          <svg class="html-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                            <title>HTML5 Logo Badge</title>
-                            <path fill="#E34F26" d="M71,460 L30,0 481,0 440,460 255,512"/>
-                            <path fill="#EF652A" d="M256,472 L405,431 440,37 256,37"/>
-                            <path fill="#EBEBEB" d="M256,208 L181,208 176,150 256,150 256,94 255,94 114,94 115,109 129,265 256,265zM256,355 L255,355 192,338 188,293 158,293 132,293 139,382 255,414 256,414z"/>
-                            <path fill="#FFF" d="M255,208 L255,265 325,265 318,338 255,355 255,414 371,382 372,372 385,223 387,208 371,208zM255,94 L255,129 255,150 255,150 392,150 392,150 392,150 393,138 396,109 397,94z"/>
-                          </svg>
-
-
                     </div>
-                    <span class="boxes">
-                        <span class="boxes-text">
-                        This website was made with HTML and CSS and employs some JavaScript as well. I've had experience with these making things for front-end and back-end development classes. I've also made a website for a city hall employing these within the Angular framework.
+                    <div class="about-me-container">
+                        <span class="about-me-content">
+                            Despite how fun this website was to make, I'm more into the field of backend programming. My best language is C++. I like working with digital audio. Aside from the programming work, I like making music in FL Studio.
                         </span>
-                    </span>
-                </div>
-                <div class="box-row">
-                    <div class="box-row-image-container">
-                        <img class="ssms-logo" src="./images/ssms.png">
                     </div>
-                    <span class="boxes">
-                        <span class="boxes-text">
-                        I've done plenty of work with SQL in both back-end programming classes and database theory classes. 
-                        </span>
-                    </span>
-                </div>
+                    <div class="box-row">
+                        <div class="box-row-image-container">
+                            <svg class="cpp-image" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 306 344.35">
+                            <path fill="#00599C" d="M302.107,258.262c2.401-4.159,3.893-8.845,3.893-13.053V99.14c0-4.208-1.49-8.893-3.892-13.052L153,172.175
+                                L302.107,258.262z"/>
+                            <path fill="#004482" d="M166.25,341.193l126.5-73.034c3.644-2.104,6.956-5.737,9.357-9.897L153,172.175L3.893,258.263
+                                c2.401,4.159,5.714,7.793,9.357,9.896l126.5,73.034C147.037,345.401,158.963,345.401,166.25,341.193z"/>
+                            <path fill="#659AD2" d="M302.108,86.087c-2.402-4.16-5.715-7.793-9.358-9.897L166.25,3.156c-7.287-4.208-19.213-4.208-26.5,0
+                                L13.25,76.19C5.962,80.397,0,90.725,0,99.14v146.069c0,4.208,1.491,8.894,3.893,13.053L153,172.175L302.108,86.087z"/>
+                            <g>
+                            <path fill="#FFFFFF" d="M153,274.175c-56.243,0-102-45.757-102-102s45.757-102,102-102c36.292,0,70.139,19.53,88.331,50.968
+                                l-44.143,25.544c-9.105-15.736-26.038-25.512-44.188-25.512c-28.122,0-51,22.878-51,51c0,28.121,22.878,51,51,51
+                                c18.152,0,35.085-9.776,44.191-25.515l44.143,25.543C223.142,254.644,189.294,274.175,153,274.175z"/>
+                            </g>
+                            <g>
+                                <polygon fill="#FFFFFF" points="255,166.508 243.666,166.508 243.666,155.175 232.334,155.175 232.334,166.508 221,166.508 
+                                221,177.841 232.334,177.841 232.334,189.175 243.666,189.175 243.666,177.841 255,177.841 	"/>
+                            </g>
+                            <g>
+                                <polygon fill="#FFFFFF" points="297.5,166.508 286.166,166.508 286.166,155.175 274.834,155.175 274.834,166.508 263.5,166.508 
+                                263.5,177.841 274.834,177.841 274.834,189.175 286.166,189.175 286.166,177.841 297.5,177.841 	"/>
+                            </g>
+                        </svg>
 
-                
+                        </div>
+                        <span class="boxes">
+                            <span class="boxes-text">
+                            C++ is the language I have the most experience with. I've done most of the bigger assignments in my programming classes with it. This included assignments in introductory C++ courses, data structures and algorithms, computer architecture, operating systems and theory of programming languages (about compilers). I also assembled a .wav player with it.
+                            </span>
+                        </span>
+                    </div>
+                    <div class="box-row">
+                        <div class="box-row-image-container">
+
+                            <svg class="css-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                <path fill="#264de4" d="M71.357 460.819L30.272 0h451.456l-41.129 460.746L255.724 512z"/>
+                                <path fill="#2965f1" d="M405.388 431.408l35.148-393.73H256v435.146z"/>
+                                <path fill="#ebebeb" d="M124.46 208.59l5.065 56.517H256V208.59zM119.419 150.715H256V94.197H114.281zM256 355.372l-.248.066-62.944-16.996-4.023-45.076h-56.736l7.919 88.741 115.772 32.14.26-.073z"/>
+                                <path fill="#fff" d="M255.805 208.59v56.517H325.4l-6.56 73.299-63.035 17.013v58.8l115.864-32.112.85-9.549 13.28-148.792 1.38-15.176 10.203-114.393H255.805v56.518h79.639L330.3 208.59z"/>
+                            </svg>
+                            <svg class="js-logo" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 124 141.53199999999998"><path d="M10.383 126.894L0 0l124 .255-10.979 126.639-50.553 14.638z" fill="#e9ca32"/><path d="M62.468 129.277V12.085l51.064.17-9.106 104.851z" fill="#ffde25"/><g fill="#fff"><path d="M57 26H43.5v78L33 102V91.5l-12.5-2V113l36.5 9.5zM67.127 26H104.5L102 40.95H81.394v24.533H102L99.5 115l-32.373 7.5V107L89 99.5 90.263 79l-23.136 3.35z"/></g></svg>
+                            <svg class="html-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                <title>HTML5 Logo Badge</title>
+                                <path fill="#E34F26" d="M71,460 L30,0 481,0 440,460 255,512"/>
+                                <path fill="#EF652A" d="M256,472 L405,431 440,37 256,37"/>
+                                <path fill="#EBEBEB" d="M256,208 L181,208 176,150 256,150 256,94 255,94 114,94 115,109 129,265 256,265zM256,355 L255,355 192,338 188,293 158,293 132,293 139,382 255,414 256,414z"/>
+                                <path fill="#FFF" d="M255,208 L255,265 325,265 318,338 255,355 255,414 371,382 372,372 385,223 387,208 371,208zM255,94 L255,129 255,150 255,150 392,150 392,150 392,150 393,138 396,109 397,94z"/>
+                            </svg>
+
+
+                        </div>
+                        <span class="boxes">
+                            <span class="boxes-text">
+                            This website was made with HTML and CSS and employs some JavaScript as well. I've had experience with these making things for front-end and back-end development classes. I've also made a website for a city hall employing these within the Angular framework.
+                            </span>
+                        </span>
+                    </div>
+                    <div class="box-row">
+                        <div class="box-row-image-container">
+                            <img class="ssms-logo" src="./images/ssms.png">
+                        </div>
+                        <span class="boxes">
+                            <span class="boxes-text">
+                                I have experience in SQL Server Management Studio writing queries and setting up databases. The final project of my database class involved cleaning and reformatting a very large Excel sheet with data to be placed into a SQL server database. Converting it into a CSV and then creating tables to transfer the data to. We wrote several queries with all types of joins, nested queries and other advanced querying techniques to ensure the correct results were pulled and that the tables were correctly formed. 
+                            </span>
+                        </span>
+                    </div>
+                    <div class="box-row">
+                        <div class="box-row-image-container">
+                            <svg class="x86-logo" viewBox="0 0 76 76" xmlns="http://www.w3.org/2000/svg">
+                                <g>
+                                    <path fill="var(--pickedColor)" fill-opacity="1" stroke-width="0.2" stroke-linejoin="round" d="M 12.1906,33.9467L 17.3016,41.8837L 12.0644,50.1178L 17.3332,50.1178L 18.7845,47.2077C 19.1736,46.4251 19.5627,45.6094 19.9518,44.7607L 20.0465,44.7607C 20.4145,45.5929 20.8142,46.4086 21.2453,47.2077L 22.7913,50.1178L 28.2178,50.1178L 23.0752,41.6522L 28.1547,33.9467L 22.949,33.9467L 21.5924,36.5927C 21.1928,37.3698 20.7931,38.1966 20.3935,39.0729L 20.3304,39.0729C 19.9255,38.2847 19.5049,37.4801 19.0684,36.6589L 17.554,33.9467L 12.1906,33.9467 Z "/>
+                                    <path fill="var(--pickedColor)" fill-opacity="1" stroke-width="0.2" stroke-linejoin="round" d="M 33.0385,38.7725C 30.5336,39.8099 29.2575,41.638 29.21,44.2568C 29.1962,45.8129 29.8027,47.2119 31.0294,48.4539C 32.2561,49.6958 34.1858,50.3525 36.8183,50.4239C 39.2887,50.3924 41.2187,49.7678 42.6083,48.55C 43.998,47.3323 44.7046,45.7106 44.7284,43.6848C 44.6979,42.2878 44.3322,41.1369 43.6313,40.2319C 42.9305,39.327 42.0773,38.6723 41.0718,38.2678L 41.0718,38.1669C 42.1153,37.6132 42.8811,36.9122 43.3691,36.064C 43.8571,35.2159 44.0985,34.3131 44.0934,33.3556C 44.1127,31.9723 43.5887,30.7276 42.5214,29.6215C 41.454,28.5154 39.7268,27.9304 37.3399,27.8667C 35.2259,27.8889 33.5111,28.4355 32.1955,29.5066C 30.88,30.5777 30.2023,32.0401 30.1625,33.8939C 30.1619,34.864 30.4003,35.7668 30.8777,36.6024C 31.3551,37.4379 32.0754,38.1389 33.0385,38.7052L 33.0385,38.7725 Z M 37.0196,46.8139C 36.0524,46.7851 35.2951,46.4725 34.7476,45.876C 34.2002,45.2795 33.9286,44.5715 33.933,43.7521C 33.9386,42.9537 34.1706,42.271 34.6291,41.7039C 35.0877,41.1369 35.7391,40.7317 36.5835,40.4885C 37.5921,40.7541 38.4098,41.1817 39.0367,41.7712C 39.6636,42.3607 39.9865,43.1332 40.0054,44.0886C 39.9921,44.8792 39.7168,45.5269 39.1793,46.0316C 38.6419,46.5363 37.922,46.7971 37.0196,46.8139 Z M 37.1116,31.2022C 38.0179,31.2296 38.6756,31.5113 39.0846,32.0476C 39.4936,32.5838 39.6947,33.2105 39.6879,33.9275C 39.6695,34.6103 39.4535,35.1963 39.0397,35.6855C 38.626,36.1748 38.1246,36.5084 37.5356,36.6865C 36.67,36.4201 35.9635,36.0444 35.4159,35.5594C 34.8683,35.0743 34.5857,34.4631 34.568,33.7257C 34.568,33.0317 34.78,32.4429 35.2039,31.9593C 35.6278,31.4756 36.2637,31.2233 37.1116,31.2022 Z "/>
+                                    <path fill="var(--pickedColor)" fill-opacity="1" stroke-width="0.2" stroke-linejoin="round" d="M 60.3314,27.8667C 59.9225,27.8104 59.2989,27.8216 58.4607,27.9003C 55.1233,28.0576 52.4035,29.125 50.3013,31.1025C 49.1786,32.209 48.2963,33.5887 47.6544,35.2417C 47.0126,36.8947 46.6854,38.7655 46.6731,40.8542C 46.6663,43.5914 47.3445,45.8594 48.7074,47.6582C 50.0704,49.4569 52.1585,50.3894 54.9719,50.4556C 57.2551,50.4031 59.0738,49.6389 60.4282,48.1629C 61.7826,46.6868 62.4757,44.8135 62.509,42.543C 62.4634,40.2153 61.8491,38.4309 60.666,37.1898C 59.4829,35.9487 58.0043,35.3222 56.2301,35.3103C 54.2435,35.3441 52.7204,35.9184 51.6609,37.0331L 51.5616,37.0331C 51.8222,35.7407 52.5012,34.6125 53.5988,33.6484C 54.6963,32.6844 56.3374,32.0942 58.522,31.8778C 59.2325,31.8047 59.8356,31.7823 60.3314,31.8104L 60.3314,27.8667 Z M 54.9057,46.7822C 53.7517,46.7427 52.8894,46.2875 52.319,45.4165C 51.7485,44.5456 51.4409,43.4958 51.3961,42.2673C 51.3905,41.6641 51.4678,41.2161 51.6278,40.9231C 51.8686,40.3587 52.2479,39.8935 52.766,39.5272C 53.284,39.161 53.8869,38.9715 54.5746,38.9586C 55.6499,38.9902 56.4542,39.375 56.9873,40.1132C 57.5205,40.8513 57.7867,41.7532 57.786,42.8187C 57.7756,43.979 57.5149,44.924 57.0039,45.6535C 56.4928,46.383 55.7934,46.7592 54.9057,46.7822 Z "/>
+                                </g>
+                            </svg>
+                        </div>
+                        <span class="boxes">
+                            <span class="boxes-text">
+                                x86 assembly was used in a few of my more advanced classes, I have used it to build a simple bootloader for a custom operating system in class. I have a decent understanding of pushing registers and setting up stack frames and a general knowledge of the instruction set. In my compiler class, I wrote lines of x86 to be generated from a LLVM IR parser. I also have a little experience with 6502 and ARM.
+                            </span>
+                        </span>
+                    </div>
+                    
+                </div>
+                <div class="container">
+                    <div class="container-header">
+                        <span class="container-header-content">
+                            Projects
+                        </span>
+                        <div class="projects-header" id="projects">
+                            <span class="projects-header-content">
+                                Below are some projects I've been working on.
+                            </span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </body>
