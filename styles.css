@@ -327,6 +327,7 @@ margin-right: -1%;
     border-color: var(--pickedColor);
     border-width: 2px;
     border-radius: 24px / 24px;
+    width: 400px;
 }
 
 .main-body .container .container-header
@@ -433,6 +434,49 @@ margin-right: -1%;
     color: var(--pickedColor);
     margin-left: 10%;
     margin-right: 10%;
+}
+
+.projects-content{
+    position:relative;
+    display: flex;
+    align-self: center;
+    text-align: center;
+}
+
+.project-annotation
+{
+    font-family: "Agdasima-Regular", sans-serif;
+    font-size: 1rem;
+    color: var(--pickedColor);
+    padding: 2%;
+    margin:1%;
+}
+
+.projects-content a {
+    font-family: "Agdasima-Regular", sans-serif;
+    font-size: 1.2rem;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.projects-content a:link{
+    color: var(--pickedColor);
+
+}
+
+.projects-content a:visited{
+    color: var(--pickedColor);
+}
+
+.projects-content a:hover{
+    color: #28cacf;
+}
+
+.project-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 
 @keyframes menu-animation {
