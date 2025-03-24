@@ -156,6 +156,7 @@ margin-right: -1%;
     height: 40px;
     max-width: 40px;
     max-height: 40px;
+    cursor: pointer;
 }
 
 .top-menu .menu-color-buttons .color-2 {
@@ -167,6 +168,7 @@ margin-right: -1%;
     height: 40px;
     max-width: 40px;
     max-height: 40px;
+    cursor: pointer;
 }
 
 .top-menu .menu-color-buttons .color-3 {
@@ -178,6 +180,7 @@ margin-right: -1%;
     height: 40px;
     max-width: 40px;
     max-height: 40px;
+    cursor: pointer;
 }
 
 .top-menu .menu-color-buttons .color-4 {
@@ -189,6 +192,7 @@ margin-right: -1%;
     height: 40px;
     max-width: 40px;
     max-height: 40px;
+    cursor: pointer;
 }
 
 .top-menu .top-menu-content .top-menu-item
@@ -363,11 +367,14 @@ margin-right: -1%;
     width: 1000px;
     border: solid var(--pickedColor);
     margin-bottom: 40px;
+    text-decoration: none;
+    cursor: default;
 }
 
 .main-body .container .media-iframe script {
     width: 500px;
     overflow: hidden;
+    text-decoration: none;
 }
 
 .main-body .container .snippet-title {
@@ -385,6 +392,17 @@ margin-right: -1%;
     font-size: 1rem;
     color: var(--pickedColor);
 }
+
+.project-block > .code-details {
+    margin-top: 1.7%;
+    margin-bottom: 1.7%;
+    align-self: center;
+    font-family:  "Quicksand", sans-serif;
+    font-size: 1rem;
+    color: var(--pickedColor);
+    cursor: pointer;
+}
+
 
 body .gist .gist-file {
     margin-bottom: 0;
@@ -820,7 +838,7 @@ body .gist .pl-iu {
     height: 50px;
     max-width: 50px;
     max-height: 50px;
-
+    cursor: pointer;
 }
 
 .main-body .super-container .menu-container .menu-color-buttons .color-2 {
@@ -832,6 +850,7 @@ body .gist .pl-iu {
     height: 50px;
     max-width: 50px;
     max-height: 50px;
+    cursor: pointer;
 }
 
 .main-body .super-container .menu-container .menu-color-buttons .color-3 {
@@ -843,6 +862,7 @@ body .gist .pl-iu {
     height: 50px;
     max-width: 50px;
     max-height: 50px;
+    cursor: pointer;
 }
 
 ::-webkit-scrollbar {

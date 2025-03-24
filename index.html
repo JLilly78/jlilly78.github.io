@@ -213,6 +213,19 @@
                                 <script src="https://gist.github.com/JLilly78/b6d9841ae92e5373faaa77d426b8c966.js"></script>
                             </div>
                         </div>
+                        <div class="snippet-title">Main music player function</div>
+                        <span class="snippet-annotation">This function is what initializes and controls playback of the input wave file. It makes use of some of the PortAudio library examples for how to write the function that initializes the library and opens the playback stream. On line 55, you'll see the Pa_OpenStream function which is what initializes the playback stream with the correct parameters pulled from the wave file headers given by the user-provided wave file. A while loop on line 71 exists to constantly check if the playback should end if the stop global is true. This would happen if the user pressed the stop button on the UI.</span>
+                        <div class="project-block">
+                            <details class="code-details">
+                                <summary>
+                                    Click to see code
+                                </summary>
+                                <div class="media-iframe">
+                                    <script src="https://gist.github.com/JLilly78/168d9ac6f7cba71b0b173e39e5174b83.js"></script>
+                                </div>
+                            </details>
+
+                        </div>
                         
                     </div>
                 </div>
